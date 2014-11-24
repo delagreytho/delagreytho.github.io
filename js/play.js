@@ -53,7 +53,7 @@ function tocar(data){
 	$('#titu-song').html('<p>'+this.titulo+'</p>');
 	$('#song-portada').html('<p>'+this.titulo+'</p>');
 	songtitle = data.currentTarget.innerText;
-	console.log(songtitle)
+	//console.log(songtitle)
 	reproducir();
 }
 
@@ -61,13 +61,13 @@ function tocar(data){
 
 
 function reproducir(){
-	console.log('reproduciendo');
+	//console.log('reproduciendo');
 	
 	repro.setAttribute('src', 'music/'+songtitle+'.mp3');
 	repro.play();
 
 	$('.icon-stop').click(function(){
-		console.log('pausado');
+		//console.log('pausado');
 		repro.pause();
 	});
 	
@@ -76,7 +76,7 @@ var ver = "";
 function get_album(data){
 	j = 1;
 	ver = data;
-	console.log('albuuuum');
+	//console.log('albuuuum');
 	this.nombre_album = data.currentTarget.id;
 	this.fuente = 'albums/album-' + this.nombre_album + '.jpg'
 	$('#portada').attr('src',this.fuente);
@@ -89,7 +89,7 @@ function get_album(data){
 
 function my_json(){
 	$.ajax({
-		url:"../js/songs.json",
+		url:"../js/songs.json",  //no leia directamente desde la misma ruta.- "songs.json"
 		dataType : "JSON"
 
 			//for( var i=1; i< recibo.disco-this.nombre_album.length+1; i++){
