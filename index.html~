@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/estilo.css">
+	<link rel="stylesheet" href="/fonts/icomoon/style.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
@@ -16,7 +16,7 @@
 			<div class="logo">
 				<div class="wrap center-block">
 					<figure class="logo-img">
-						<img  src="img/nike.png" alt="">
+						<img  src="/img/nike.png" alt="">
 					</figure>
 					<div class="user">
 						<figure class="avatar">
@@ -111,7 +111,7 @@
 
 		<div class="music center-block">
 			<figure class="image">
-				<img id="portada" width="200" height="200" src="albums/album-uno.jpg" alt="">
+				<img id="portada" width="200" height="200" src="/albums/album-uno.jpg" alt="">
 				<div class="actions">
 					<a href="#" class="action icon-heart"></a>
 					<a href="#" class="action icon-thumbs-up"></a>
@@ -147,90 +147,90 @@
 	<section class="container">
 		<article id="uno" class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Happy</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article id="dos" class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-dos.jpg" width="128" height="128">
+				<img src="/albums/album-dos.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Say Something</p>
 			<p class="autor">A great big world</p>
 		</article>
 		<article id="tres" class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-tres.jpg" width="128" height="128">
+				<img src="/albums/album-tres.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">One</p>
 			<p class="autor">Ed Sheeran</p>
 		</article>
 		<article id="cuatro" class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-cuatro.jpg" width="128" height="128">
+				<img src="/albums/album-cuatro.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Story of My Life</p>
 			<p class="autor">One Direction</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 		<article class="song">
 			<figure class="cajaimg">
-				<img src="albums/album-uno.jpg" width="128" height="128">
+				<img src="/albums/album-uno.jpg" width="128" height="128">
 			</figure>
 			<p class="nombre">Girl</p>
 			<p class="autor">Pharrell Williams</p>
 		</article>
 	</section>
-	<script src="js/play.js"></script>
+	<script src="/js/play.js"></script>
 
 </body>
 
