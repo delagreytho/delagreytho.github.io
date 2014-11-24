@@ -53,7 +53,7 @@ function tocar(data){
 	$('#titu-song').html('<p>'+this.titulo+'</p>');
 	$('#song-portada').html('<p>'+this.titulo+'</p>');
 	songtitle = data.currentTarget.innerText;
-	console.log(songtitle)
+	//console.log(songtitle)
 	reproducir();
 }
 
@@ -61,13 +61,13 @@ function tocar(data){
 
 
 function reproducir(){
-	console.log('reproduciendo');
+	//console.log('reproduciendo');
 	
 	repro.setAttribute('src', 'music/'+songtitle+'.mp3');
 	repro.play();
 
 	$('.icon-stop').click(function(){
-		console.log('pausado');
+		//console.log('pausado');
 		repro.pause();
 	});
 	

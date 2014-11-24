@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log('estamos listos');
+	//console.log('estamos listos');
 	$('#tocar').click(reproducir);
 	$('.song').click(get_album);
 	$('.suena').click(tocar);
