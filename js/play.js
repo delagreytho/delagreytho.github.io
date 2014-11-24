@@ -85,9 +85,11 @@ function get_album(data){
 		
 }
 
+//verificando url json
+
 function my_json(){
 	$.ajax({
-		url:"songs.json",
+		url:"/songs.json",
 		dataType : "JSON"
 
 			//for( var i=1; i< recibo.disco-this.nombre_album.length+1; i++){
